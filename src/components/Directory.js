@@ -43,7 +43,7 @@ class Directory extends Component {
       this.setState({ sorted: true });
     });
   };
-  
+
   render = () => {
     return (
       <div className="background">
