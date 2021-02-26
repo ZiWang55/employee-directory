@@ -14,8 +14,14 @@ const Employees = (props) => {
     }
 
     // Cleanly call formatDate on the props in the below JSX
-    // let dateOfBirth = formateDate(props.dob);
+    let dateOfBirth = formateDate(props.dob);
 
-    // return
+    return (
+        <tr className="tr">
+            <td>
+                <img alt=[props.firstName] SRC={props.icon}/>
+            </td>
+        </tr>
+    )
 
 }
